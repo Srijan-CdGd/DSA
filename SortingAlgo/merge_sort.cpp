@@ -4,6 +4,8 @@ using namespace std;
 #define fout(n, a) for(int i = 0; i < n; i++) cout<<a[i]<<" ";
 #define fin(n, a) for(int i = 0; i < n; i++) cin>>a[i];
 
+// This is the function used to merge all the nodes that are formed after division and work in a regressive manner.
+
 void merge(int arr[], int s, int mid, int e){
     int temp[e+1] = {0};
     int x = s, y = mid + 1;
