@@ -18,9 +18,11 @@ void merge(int arr[], int s, int mid, int e){
 
     while(x <= mid) temp[k++] = arr[x++];
     while(y <= e )temp[k++] = arr[y++];
-
+    
     for(int i = s, j = 0; i <= e; i++, j++) arr[i] = temp[j];
 }
+
+// This function is to divide the given array in the small array till single is left in a recursive manner
 
 void divide(int arr[], int s, int e){
     int mid = s + (e - s)/2;
