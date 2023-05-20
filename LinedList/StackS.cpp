@@ -67,24 +67,20 @@ class StackS{
 };
 
 // int main(){
-//     StackS<int>* s = new StackS<int> (1);
-//     s->push(2);
-//     s->push(3);
-//     s->push(4);
-//     s->push(5);
+//     StackS<char>* s = new StackS<char> ('s');
+//     s->push('r');
+//     s->push('i');
+//     s->push('j');
+//     s->push('a');
+//     s->push('n');
 //     cout<<s->getLength()<<endl;
 //     s->print();
-
-    
 //     cout<<"Peek: "<<s->peek()<<endl;
-
+//     s->pop();
 //     s->pop();
 //     s->pop();
 //     cout<<s->getLength()<<endl;
 //     s->print();
-
 //     cout<<"Peek: "<<s->peek()<<endl;
-
-
 //     return 0;
 // }
