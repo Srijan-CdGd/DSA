@@ -1,3 +1,6 @@
+/* Stack from scratch as the name says StackS. */
+
+
 #include<iostream>
 using namespace std;
 
