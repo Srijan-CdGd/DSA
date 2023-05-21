@@ -36,7 +36,7 @@ class StackS{
 
         S pop(){
             if(top == NULL){
-                cout<<"Stack empty cannot pop";
+                cout<<"Stack empty, cannot pop";
                 return top->val;
             }
 
@@ -75,18 +75,18 @@ class StackS{
         }
 };
 
-int main(){
-    StackS<char>* s = new StackS<char> ('s');
-    s->push('r');
-    s->push('i');
-    cout<<s->getLength()<<endl;
-    s->print();
-    cout<<"Peek: "<<s->peek()<<endl;
-    s->pop();
-    s->pop();
-    s->pop();
-    cout<<s->getLength()<<endl;
-    s->print();
-    cout<<"Peek: "<<s->peek()<<endl;
-    return 0;
-}
+// int main(){
+//     StackS<char>* s = new StackS<char> ('s');
+//     s->push('r');
+//     s->push('i');
+//     cout<<s->getLength()<<endl;
+//     s->print();
+//     cout<<"Peek: "<<s->peek()<<endl;
+//     s->pop();
+//     s->pop();
+//     s->pop();
+//     cout<<s->getLength()<<endl;
+//     s->print();
+//     cout<<"Peek: "<<s->peek()<<endl;
+//     return 0;
+// }
